@@ -16,7 +16,8 @@ const Technologies = () =>  (
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
         Experience with <br />
-        JavaScript, HTML,<br /> CSS, Node and React
+        JavaScript,React, HTML5/CSS,<br /> 
+        PhotoShop, and Articulate.
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -26,16 +27,20 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experience with <br />
-          SQL, C++, Java and Python
+          SQL, .NET, C++, <br />
+          Java, SVN and <br />
+          Hosting services.
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
       <DiOpensource size="3rem" />
       <ListContainer>
-        <ListTitle>Soft Skills</ListTitle>
+        <ListTitle>Hard/Soft Skills</ListTitle>
         <ListParagraph>
-          Organization, Collaboration, Leadership and Design <br />
+        Communication, Project-Planning<br />
+        Problem-Solving, Organization <br />
+        Teamwork and Task-Management
         </ListParagraph>
       </ListContainer>
     </ListItem>

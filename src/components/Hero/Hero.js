@@ -8,10 +8,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
         <SectionTitle main center>
-          Gabriel Valenzuela <br />
-          Jr. Developer
+          Gabriel Valenzuela <br/>
+          &ensp;&ensp;&ensp;&ensp;Software Engineer <br/>
+          &ensp;&ensp;&ensp;&ensp;Project Manager 
         </SectionTitle>
-        <Button onClick={() => window.location = 'https://github.com/gvalen45/Gabriel-Valenzeula-Resume/blob/main/gabrielValenzuelaResume.pdf'}>View Resume </Button>
+       <SectionText main center></SectionText>
+        <Button onClick={() => window.open('https://github.com/gvalen45/Gabriel-Valenzeula-Resume/blob/main/gabrielValenzuelaResume.pdf', '') }>View Resume </Button>
     </LeftSection>
 
   </Section>
