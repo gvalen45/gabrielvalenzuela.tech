@@ -43,10 +43,12 @@ const Timeline = () => {
   }, []);
 
   return (
+    
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider/>
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>
-      Hey my name is Gabriel. I'm a programmer, a student, and a coffee addict. I have over four years of programming experience and I am looking forward to taking on new challenges and learning new abilities.      </SectionText>
+      Software Engineer and Project Manager developing highly adaptable engineering solutions for the operation, maintenance, and support of complex systems. Proven leader in the application of several emerging technologies to deliver clear visions for products that are critical to clients. Providing effective support and delivery for a variety of projects in the simulation, education, industrial, financial services, and medical markets.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -109,7 +111,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };
