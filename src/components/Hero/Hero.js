@@ -13,7 +13,7 @@ const Hero = (props) => (
           &ensp;&ensp;&ensp;&ensp;Project Manager 
         </SectionTitle>
        <SectionText main center></SectionText>
-        <Button onClick={() => window.open('https://github.com/gvalen45/Gabriel-Valenzeula-Resume/blob/main/gabrielValenzuelaResume.pdf', '') }>View Resume </Button>
+        <Button onClick={() => window.open('https://github.com/gvalen45/Gabriel-Valenzeula-Resume/blob/master/Resume.pdf', '') }>View Resume </Button>
     </LeftSection>
 
   </Section>
