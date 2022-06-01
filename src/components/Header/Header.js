@@ -26,8 +26,10 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#resume ">
+        <Link onClick={() => window.open('https://github.com/gvalen45/Gabriel-Valenzeula-Resume/blob/master/Resume.pdf', '') } href="https://github.com/gvalen45/Gabriel-Valenzeula-Resume/blob/master/Resume.pdf">
+        
           <NavLink>Resume</NavLink>
+          
         </Link>
       </li>
       <li>
@@ -35,6 +37,7 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/gvalen45">
@@ -45,6 +48,7 @@ const Header = () =>  (
       </SocialIcons>
     </Div3>
   </Container>
+  
 );
 
 export default Header;
