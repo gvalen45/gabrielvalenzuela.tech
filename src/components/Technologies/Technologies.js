@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section nopadding id="tech">
     <SectionDivider/>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills & Technologies</SectionTitle>
     <SectionText>
     </SectionText>
     <List>
@@ -16,20 +16,30 @@ const Technologies = () =>  (
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
         Experience with <br />
-        JavaScript,React, HTML5/CSS,<br /> 
-        PhotoShop, and Articulate.
+        React.js, Angular, JavaScript<br />
+            HTML5/CSS, and responsive UI/UX design<br /> 
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
       <DiFirebase size="3rem" />
       <ListContainer>
-        <ListTitle>Back-End</ListTitle>
+        <ListTitle>Back-End & DevOps</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          SQL, .NET, C++, <br />
-          Java, SVN and <br />
-          Hosting services.
+        Proficient in <br />
+          .NET, C#, Python, SQL, Java, Jenkins<br />
+          GitHub, UrbanCodeDeploy, RESTful APIs<br />
+          Oracle APEX and Hosting services
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    <ListItem>
+      <DiOpensource size="3rem" />
+      <ListContainer>
+        <ListTitle>Cloud & Tools</ListTitle>
+        <ListParagraph>
+        Azure, Oracle Cloud, CI/CD Pipelines, Secure SDLC <br />
+        Agile Scrum, Code Scanning, and Automated Testing
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -38,10 +48,12 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Hard/Soft Skills</ListTitle>
         <ListParagraph>
-        Communication, Project-Planning<br />
-        Problem-Solving, Organization <br />
-        Teamwork and Task-Management
-        </ListParagraph>
+        Team mentorship, Agile sprint planning, <br />
+        Project ownership, cross-functional coordination, <br />
+        Strategic problem-solving, and technical communication.
+      </ListParagraph>
+
+        
       </ListContainer>
     </ListItem>
 
