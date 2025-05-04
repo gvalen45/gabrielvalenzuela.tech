@@ -9,6 +9,7 @@ const Hero = (props) => (
     <LeftSection>
         <SectionTitle main center>
           Gabriel Valenzuela <br/>
+          &ensp;&ensp;&ensp;&ensp;Senior Software Engineer <br/>
           &ensp;&ensp;&ensp;&ensp;Software Engineer <br/>
           &ensp;&ensp;&ensp;&ensp;Project Manager 
         </SectionTitle>

@@ -10,7 +10,7 @@ export const projects = [
 },
   {
     title: 'Personal Website',
-    description: "Personal website created with technologies such as React, Node.js, HTML/CSS, and JavaScript. These tools created a responsive, cross-platform website that highlights development talents and career objectives.",
+    description: "Personal website created with technologies such as React, Node.js, HTML/CSS, and JavaScript. These tools created a responsive, cross-platform website that highlights development talents and career objectives.",
       image: '/images/1.png',
       tags: ['React', 'Node', 'JavaScript'],
     source: 'https://github.com/gvalen45/gabrielvalenzuela.tech.git',
@@ -24,6 +24,8 @@ export const TimeLineData = [
   { year: 2017, text: 'Coded my first \'Hello World\'', },
   { year: 2019, text: 'Completed Associates of Science, focus in CS.', },
   { year: 2020, text: 'Transfered to ASU to pursue Bachelor\'s in CS', },
-  { year: 2021, text: 'Started technical career as Jr. Developer', },
-  { year: 2022, text: 'Promoted to Project Manager and Lead Software Engineer', }
+  { year: 2021, text: 'Started technical career as Jr. Developer at inXsol', },
+  { year: 2023, text: 'Started as a Software Engieer at Wells Fargo', },
+
+
 ];
